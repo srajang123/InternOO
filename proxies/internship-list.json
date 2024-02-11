@@ -1,25 +1,25 @@
 [{
-    role: 'SoftwareEngineerIntern',
-    company: {
-        name: 'NewGenSoftwares',
-        logo: ''
-    },
-    stipend: '10k',
-    minExperience: '0',
+  "role": "SoftwareEngineerIntern",
+  "company": {
+    "name": "NewGenSoftwares",
+    "logo": ""
+  },
+  "stipend": "10k",
+  "minExperience": "0"
 }, {
-    role: 'SoftwareEngineerIntern',
-    company: {
-        name: 'OldGenSoftwares',
-        logo: ''
-    },
-    stipend: '5k',
-    minExperience: '0',
+  "role": "SoftwareEngineerIntern",
+  "company": {
+    "name": "OldGenSoftwares",
+    "logo": ""
+  },
+  "stipend": "5k",
+  "minExperience": "0"
 }, {
-    role: 'SoftwareEngineer',
-    company: {
-        name: 'NewGenSoftwares',
-        logo: ''
-    },
-    stipend: '40k',
-    minExperience: '1year',
+  "role": "SoftwareEngineer",
+  "company": {
+    "name": "NewGenSoftwares",
+    "logo": ""
+  },
+  "stipend": "40k",
+  "minExperience": "1year"
 }]

@@ -7,12 +7,10 @@ const otp = require('./db/otp');
 const app = express();
 const PORT = 5000 || process.env.PORT;
 
-app.get('/',(req, res) => {
-    res.send("Hello");
-});
-
 app.get('/internship/fetch/', (req, res) => {
-    res.json(internships.fetchInternships());
+    internships.fetchInternships().then((data) => {
+        res.json(data);
+    });
 });
 
 app.get('/internship/apply/:internshipId', (req,res) => {
@@ -42,6 +40,10 @@ app.get('/user/otp/verify/:email/:inputOTP', (req, res) => {
     res.json({
         isCorrectOTP: otp.verifyOtp(email, inputOTP)
     });
+});
+
+app.get('/*',(req, res)=> {
+    res.status(404).send("Error 404 Not Found!!");
 });
 
 app.listen(PORT, () => {

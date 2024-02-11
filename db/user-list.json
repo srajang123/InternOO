@@ -1,9 +1,1 @@
-[
-    {
-      "userId": "123",
-      "name": "Anshika Gupta",
-      "appliedInternships": ["abc1","def2"],
-      "email": "anshika.oel@gmail.com",
-      "password": "abcd"
-    }
-  ]
+[{"userId":"123","name":"Anshika Gupta","appliedInternships":["abc1","def2","123"],"email":"anshika.oel@gmail.com","password":"abcd"}]

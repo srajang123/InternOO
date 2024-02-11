@@ -17,11 +17,8 @@ app.get('/internship/fetch/', (req, res) => {
 app.get('/internship/apply/:internshipId', (req,res) => {
     var userId = req.query.userId;
     var internshipId = req.params.internshipId;
-    var appliedInternshipIds = users.fetchAppliedInternships(userId);
-    var appliedInternships = appliedInternshipIds.map(appliedInternshipId => {
-        internships.fetchInternshipInformation(appliedInternshipId);
-    });
-    res.json(appliedInternships);
+    users.applyInternship(userId, internshipId);
+    res.send("Applied to internship");
 });
 
 app.get('/internship/applied', (req,res) => {

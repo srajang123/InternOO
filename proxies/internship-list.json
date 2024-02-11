@@ -1,4 +1,5 @@
 [{
+  "id":"abc1",
   "role": "SoftwareEngineerIntern",
   "company": {
     "name": "NewGenSoftwares",
@@ -7,6 +8,7 @@
   "stipend": "10k",
   "minExperience": "0"
 }, {
+  "id":"abc2",
   "role": "SoftwareEngineerIntern",
   "company": {
     "name": "OldGenSoftwares",
@@ -15,6 +17,7 @@
   "stipend": "5k",
   "minExperience": "0"
 }, {
+  "id":"def2",
   "role": "SoftwareEngineer",
   "company": {
     "name": "NewGenSoftwares",
